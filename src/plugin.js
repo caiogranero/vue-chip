@@ -1,7 +1,7 @@
 import Chip from './Chip.vue'
 
-module.exports = {
-  install (Vue, options) {
+export default {
+  install (Vue) {
     Vue.component('vue-chip', Chip)
   }
 }

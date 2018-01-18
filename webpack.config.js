@@ -7,6 +7,12 @@ var commonConfig = {
   output: {
     path: path.resolve(__dirname + '/dist/')
   },
+  externals: {
+    vue: 'vue',
+  },
+  resolve: {
+    extensions: ['.js', '.vue'],
+  },
   module: {
     loaders: [
       {
