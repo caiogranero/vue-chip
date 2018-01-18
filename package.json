@@ -2,7 +2,7 @@
   "name": "vue-chip",
   "version": "1.0.0",
   "description": "A chip component for Vue.js",
-  "main": "dist/vue-chip.js",
+  "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "rimraf ./dist && webpack --config ./webpack.config.js"
