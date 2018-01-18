@@ -1,6 +1,6 @@
 <template>
   <div class="chip" @click="selectEvent">
-    {{title}}
+    {{text}}
     <i @click="closeEvent" class="fa fa-times" aria-hidden="true" v-if="close">&times;</i>
   </div>
 </template>
@@ -10,9 +10,9 @@ export default {
   name: 'Chip',
 
   props: {
-    title: {
+    text: {
       type: String,
-      default: '',
+      default: 'You know nothing, Jon Snow!',
       required: false
     },
     select: {
